@@ -34381,18 +34381,18 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-list-1 {
-  width: 747px;
+  width: 933px;
   margin: 1px auto;
 }
 
 .u-header .u-repeater-1 {
   min-height: 60px;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   grid-gap: 0px 0px;
 }
 
 .u-header .u-container-layout-1 {
-  padding: 0 17px;
+  padding: 0;
 }
 
 .u-header .u-btn-1 {
@@ -34406,7 +34406,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-container-layout-2 {
-  padding: 0 17px;
+  padding: 0;
 }
 
 .u-header .u-btn-2 {
@@ -34420,7 +34420,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-container-layout-3 {
-  padding: 0 17px;
+  padding: 0;
 }
 
 .u-header .u-btn-3 {
@@ -34434,7 +34434,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-container-layout-4 {
-  padding: 0 17px;
+  padding: 0;
 }
 
 .u-header .u-btn-4 {
@@ -34446,13 +34446,24 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: 0 auto;
   padding: 16px 28px 17px;
 }
-@media (max-width: 1199px) {
-  .u-header .u-list-1 {
-    width: 747px;
-  }
 
+.u-header .u-container-layout-5 {
+  padding: 0;
+}
+
+.u-header .u-btn-5 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-image: none;
+  border-style: none;
+  margin: 0 auto;
+  padding: 16px 28px 17px;
+}
+@media (max-width: 1199px) {
   .u-header .u-repeater-1 {
     min-height: 60px;
+    grid-template-columns: 25% 25% 25% 25%;
   }
 }
 @media (max-width: 991px) {
@@ -34461,7 +34472,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-repeater-1 {
-    min-height: 231px;
+    min-height: 154px;
     grid-template-columns: 50% 50%;
   }
 }
@@ -34471,32 +34482,16 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-repeater-1 {
-    grid-template-columns: 100%;
-  }
-
-  .u-header .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-header .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-header .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-header .u-container-layout-4 {
-    padding-left: 10px;
-    padding-right: 10px;
+    min-height: 260px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-list-1 {
     width: 340px;
+  }
+
+  .u-header .u-repeater-1 {
+    grid-template-columns: 100%;
   }
 }
 .u-footer .u-sheet-1 {
